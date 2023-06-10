@@ -21,6 +21,7 @@ This is a pure python implement of **AMG** user-friendly for my homework project
 └── smoother.py # smoother logic, Support GS | JACOBI
 ```
 
+![](./AMG_algo.png)
 ## Output
 
 Run command:
@@ -85,3 +86,5 @@ Residual Norm ||b-A*x||_2    = 4.599764552260488e-10
 
 
 ```
+
+![](./relative_residual.png)
