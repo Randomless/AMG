@@ -32,7 +32,6 @@ if __name__ == "__main__":
             cycle_type=cycle_type,
         )
         rel_res_dict[cycle_type] = rel_res
-        print("len(rel_res): ", len(rel_res))
 
     # plot relative residual dict of different cycle types for comparison
     plt.figure(figsize=(8, 6))

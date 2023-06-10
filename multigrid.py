@@ -359,7 +359,7 @@ def multigrid_solver(
         cycle_cnt (int): Number of cycles performed
         rel_res (array): Relative residual norm after each iteration
     """
-
+    print("-"*10)
     n = A.shape[0]
     x = np.zeros(n)
     rn = np.linalg.norm(b)
@@ -402,4 +402,5 @@ def multigrid_solver(
     print("Performed Cycle =", cycle_cnt)
     print("Residual Norm ||b-A*x||_2    =", rn)
 
+    print("\n")
     return x, cycle_cnt, rel_res
